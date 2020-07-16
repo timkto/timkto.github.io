@@ -3,14 +3,23 @@
     var TogetherJSConfig_hubBase = "https://togetherjs-hub.glitch.me/";
 </script>
 <script src="https://togetherjs.com/togetherjs-min.js"></script>
+<style>
+    .landingpage {
+        margin: auto;
+        left: 0em;
+        right: 0em;
+    }
+</style>
 <html>
     <head>
         <title>Co-Edit Web Form Sample</title>
     </head>
     <body>
-        <p>Co-Edit Web Form Sample</p>
-        <button onclick="TogetherJS(this); return false;">Start TogetherJS</button><br><br>
-        <div><label>Name : </label><input type="text"></input></div><br>
-        <div><label style="vertical-align: top;">Address : </label><textarea rows="4" cols="50"></textarea></div>
+        <div class="landingpage">
+            <p>Co-Edit Web Form Sample</p>
+            <button onclick="TogetherJS(this); return false;">Start TogetherJS</button><br><br>
+            <div><label>Name : </label><input type="text"></input></div><br>
+            <div><label style="vertical-align: top;">Address : </label><textarea rows="4" cols="50"></textarea></div>
+        </div>
     </body>
 </html>
